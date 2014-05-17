@@ -1,4 +1,4 @@
-#include <../../../../../kernel/arch/arm/mach-msm/proc_comm.h>
+#include <../../../../arch/arm/mach-msm/proc_comm.h>
 #include <linux/kernel.h>
 
 #include <linux/delay.h> /* for msleep() */
