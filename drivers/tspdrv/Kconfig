@@ -1,0 +1,13 @@
+#
+# TouchSense configuration
+#
+
+menuconfig TSPDRV
+# 2012.06.07 chg[start]
+	bool "TouchSense support"
+#	tristate "TouchSense support"
+#       default m
+	default y
+# 2012.06.07 chg[end]
+	---help---
+	  This is TouchSense Kconfig.

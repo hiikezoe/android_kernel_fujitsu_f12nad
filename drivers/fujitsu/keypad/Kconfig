@@ -1,0 +1,10 @@
+config FUJITSU_KEYPAD
+	bool "Fujitsu HW Key Devices driver"
+	default y
+	---help---
+	  Say Y here if you want to enable the driver for the FUJITSU's keypad.
+	  This is intended to support it's hard key.
+
+	  To compile this driver as a module, choose M here: the module will
+	  be called keypad.
+
